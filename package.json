@@ -1,0 +1,16 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "A simple mock server to mock datas",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "spaceluo",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "typescript": "^3.2.4"
+  }
+}
